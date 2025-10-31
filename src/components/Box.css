@@ -1,0 +1,319 @@
+.container{
+   background: white;
+   
+    
+}
+.title{
+    text-align: center;
+    margin: 50px auto;
+    padding-bottom: 20px;
+
+
+
+}
+
+.title h3{
+    color: gray;
+    font-size: 30px;
+}
+.subsection{
+    display: flex;
+   margin: 20px 20px;
+    
+    padding: 20px 20px;
+}
+.item1{
+   /* border: 2px rgb(232, 57, 86);
+   border-radius: 20px;
+   margin: 20px 20px; */
+   box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #f9dede;
+    border-radius: 40px;
+     margin: 20px 20px; 
+     width: 310px;
+
+  
+    
+}
+.item2{
+  /* border-style: solid;
+   border: 2px rgb(253, 253, 13);
+   border-radius: 20px;
+   margin: 20px 20px; */
+   box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fef3c7;
+    border-radius: 40px;
+     margin: 20px 20px;
+      width: 310px; 
+
+   
+    
+}
+.item3{
+   /* border: 2px rgb(148, 17, 241);
+   border-radius: 20px;
+   margin: 20px 20px; */
+   box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #e1dbfc;
+    border-radius: 40px;
+     margin: 20px 20px;
+      width: 310px; 
+
+   
+    
+}
+.item4{
+   /* border: 2px rgb(232, 57, 86);
+   border-radius: 20px;
+   margin: 20px 20px; */
+   box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+    border-color: 	#f9e0e0;
+    border-radius: 40px;
+     margin: 20px 20px; 
+      width: 310px;
+    
+    
+}
+
+.item1 p{
+    
+     font-size: 18px;
+    /* padding: 30px 50px; */
+    /* font-family: 'Poppins', sans-serif; */
+     /* font-family: 'Inter', sans-serif; */
+     padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+     padding-bottom: 15px;
+      font-family: "Our Lexend", sans-serif;
+
+    
+}
+.item2 p{
+   
+     font-size: 18px;
+    /* padding: 55px 55px; */
+    /* padding: 30px 50px; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+     padding-bottom: 15px;
+      font-family: "Our Lexend", sans-serif;
+
+
+}
+.item3 p{
+   
+     font-size: 18px;
+    /* padding: 55px 55px; */
+    /* padding: 30px 50px; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+     font-family: "Our Lexend", sans-serif;
+
+
+
+}
+.item4 p{
+    /* padding: 55px 55px; */
+    /* padding: 30px 50px; */
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* font-family: 'Poppins', sans-serif; */
+     font-family: "Our Lexend", sans-serif;
+     font-size: 18px;
+      padding-bottom: 15px;
+
+}
+.item1 h3{
+   
+  padding: 25px auto;
+    /* font-weight: bold; */
+    color: black;
+    font-size: 30px;
+     font-family: "Our Lexend", sans-serif;
+}
+.item2 h3{
+    padding: 25px auto ;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+     font-family: "Our Lexend", sans-serif;
+}
+.item3 h3{
+    padding: 25px auto ;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+     font-family: "Our Lexend", sans-serif;
+}
+.item4 h3{
+    padding: 25px auto ;
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+     font-family: "Our Lexend", sans-serif;
+}
+
+.item1 img{
+    
+     height: 200px;
+    width: 200px;
+    border-radius: 20px;
+   margin: 50px auto 12px;
+    
+   
+
+
+}
+.item2 img{
+   
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+   margin: 50px auto 12px;
+
+}
+.item3 img{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+   margin: 50px auto 12px;
+
+}
+.item4 img{
+    
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+   margin: 50px auto 12px;
+   
+
+}
+.item1 {
+  background: linear-gradient(to bottom right, #fff, #fce6ea);
+
+}
+
+.item2 {
+  background: linear-gradient(to bottom right, #fff, #fff5cc);
+}
+
+.item3 {
+  background: linear-gradient(to bottom right, #fff, #e6e6ff);
+}
+
+.item4 {
+  background: linear-gradient(to bottom right, #fff, #fbecec);
+  
+}
+.item1 a{
+    font-size: 18px;
+    color: black;
+    /* font-family: 'Inter', 'Sharp Sans', 'sans-serif'; Closest match */
+  font-weight: 400; /* Semibold */
+  /* font-size: 1.25rem; ~20px */
+  color: #1c1c1c; /* Dark navy/black */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+   font-family: "Our Lexend", sans-serif;
+    
+    
+    
+
+   
+}
+.item2 a{
+    font-size:18px;
+    color: black;
+    margin-bottom: 20px;
+     padding: 20px 20px;
+     font-weight: 400; /* Semibold */
+  /* font-size: 1.25rem; ~20px */
+  color: #1c1c1c; /* Dark navy/black */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+   font-family: "Our Lexend", sans-serif;
+}
+.item3 a{
+    font-size: 18px;
+    color: black;
+     padding-bottom: 50px;
+     font-weight: 400; /* Semibold */
+  /* font-size: 1.25rem; ~20px */
+  color: #1c1c1c; /* Dark navy/black */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+   font-family: "Our Lexend", sans-serif;
+}
+.item4 a{
+    font-size: 18px;
+    color: black;
+   padding-bottom: 20px;
+   font-weight: 400; /* Semibold */
+  /* font-size: 1.25rem; ~20px */
+  color: #1c1c1c; /* Dark navy/black */
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+   font-family: "Our Lexend", sans-serif;
+}
+.item1 span {
+  color: red;
+}
+.item2 span {
+  color: red;
+}
+.item3 span {
+  color: red;
+}
+.item4 span {
+  color: red;
+}
+.item1:hover{
+    transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.item2:hover{
+    transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.item3:hover{
+    transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+.item4:hover{
+    transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+ .line {
+  flex: 1;
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+  max-width: 100px;
+  display: flex;
+}

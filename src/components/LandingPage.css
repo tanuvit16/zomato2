@@ -1,0 +1,55 @@
+.landing-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: x-large;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 span {
+  color: red;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.store-buttons img {
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.scroll-down {
+  margin-top: 2rem;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+
+

@@ -1,0 +1,9 @@
+.app {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}

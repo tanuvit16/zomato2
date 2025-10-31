@@ -1,0 +1,82 @@
+.zomato-section {
+  position: relative;
+  background-color: white;
+  padding: 100px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.text-content h2 {
+  font-size: 4.2rem;
+  color: #EF4F5F;
+  font-weight: bold;
+  margin-bottom: 20px;
+ /* font-family: 'Sharp Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+ /* margin-top: 50px; */
+  font-family: "Our Lexend", sans-serif;
+
+}
+
+.text-content p {
+  font-size: 1.6rem;
+  color: #596378;
+  max-width: 600px;
+  line-height: 1rem;
+  margin: 0 auto;
+  /* padding-top: 10px; */
+  font-weight: 50px;
+  /* font-family: 'Sharp Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+   align-items: center;
+    /* color: #555; */
+    justify-content: space-between;
+    padding: 20px auto;
+    /* font-size: 1.8rem; */
+  
+  /* max-width: 600px; */
+  margin:20px auto;
+   font-family: "Our Lexend", sans-serif;
+
+}
+
+
+.food-img {
+  position: absolute;
+  z-index: 1;
+}
+
+.burger {
+  top: 120px;
+  left: 50px;
+  width: 280px;
+}
+
+.momos {
+  top: 40px;
+  right: 80px;
+  width: 230px;
+}
+
+.pizza {
+  bottom: 60px;
+  right: 50px;
+  width: 220px;
+}
+
+.tomato {
+  bottom: 30px;
+  left: 80px;
+  width: 50px;
+  height: 30px;
+}
+
+.leaf {
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 50px;
+}
+/* .line{
+  width: 150px;
+  height: 800px;
+} */

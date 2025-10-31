@@ -1,0 +1,81 @@
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+.landing-page {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  /* margin: 30px; */
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-size: x-large;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+   font-family: "Our Lexend", sans-serif;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+   font-family: "Our Lexend", sans-serif;
+}
+
+/* h2 span {
+  color: red;
+} */
+
+p {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+   font-family: "Our Lexend", sans-serif;
+}
+
+.store-buttons img {
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.scroll-down {
+  margin-top: 2rem;
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+
+
+
+
+
+
