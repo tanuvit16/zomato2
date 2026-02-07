@@ -6,7 +6,7 @@ const Download = () => {
     <div className="download-section">
       <div className="download-left">
         <h2>Download the app now!</h2>
-        <p>Experience seamless online ordering <br/>only on the Zomato app</p>
+        <p>Experience seamless online ordering <br/>only on the Flavora app</p>
         <div className="store-buttons">
           <img src="google.avif" alt="Google Play" />
           <img src="appstore.avif" alt="App Store" />

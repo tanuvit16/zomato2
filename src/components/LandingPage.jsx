@@ -1,27 +1,67 @@
-import React from 'react';
+// import React from 'react';
 
-import './LandingPage.css';
+// import './LandingPage.css';
 
 
 
- function LandingPage() {
-  return (
-    <>
+//  function LandingPage() {
+//   return (
+//     <>
     
-    <div className="landing-page" >
+//     <div className="landing-page" >
+//       <div className="overlay">
+//         <h1><strong>zomato</strong></h1>
+//         <h2>India’s <span>#1<br/></span> food delivery app</h2>
+//         <p>Experience fast & easy online ordering<br />on the Zomato app</p>
+//         <div className="store-buttons">
+//           <img src="google.avif" alt="Get it on Google Play" />
+//           <img src="appstore.avif" alt="Download on the App Store" />
+//         </div>
+//         <div className="scroll-down">Scroll down ↓</div>
+//       </div>
+//     </div>
+//     </>
+    
+//   );
+// }
+// export default LandingPage;
+
+
+
+
+
+
+import React from "react";
+import "./LandingPage.css";
+
+function LandingPage() {
+  return (
+    <div className="landing-page">
       <div className="overlay">
-        <h1><strong>zomato</strong></h1>
-        <h2>India’s <span>#1<br/></span> food delivery app</h2>
-        <p>Experience fast & easy online ordering<br />on the Zomato app</p>
+        <h1 className="brand-name">FLAVORA</h1>
+
+        <h2 className="headline">
+          India’s <span>#1</span> <br />
+          smart food delivery experience
+        </h2>
+
+        <p className="description">
+          Discover top restaurants, lightning-fast delivery,
+          <br />
+          and meals crafted for every mood.
+        </p>
+
         <div className="store-buttons">
           <img src="google.avif" alt="Get it on Google Play" />
           <img src="appstore.avif" alt="Download on the App Store" />
         </div>
-        <div className="scroll-down">Scroll down ↓</div>
+
+        <div className="scroll-down">
+          Explore more <span>↓</span>
+        </div>
       </div>
     </div>
-    </>
-    
   );
 }
+
 export default LandingPage;

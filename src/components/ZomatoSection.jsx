@@ -10,7 +10,7 @@ const ZomatoSection = () => {
       <img src="pizza.avif" alt="Pizza" className="food-img pizza" />
       <img src="tomato.avif" alt="Tomato" className="food-img tomato" />
       <img src="mint.avif" alt="Leaf" className="food-img leaf" />
-<img src=""/>
+<img src="burger.avif"/>
       <div className="text-content">
         <h2>Better food for <br /> more people</h2>
         <p>

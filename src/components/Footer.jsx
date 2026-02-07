@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-logo">zomato</div>
+        <div className="footer-logo">Flavora</div>
         <div className="footer-columns">
           <div className="footer-column">
             <h4>Eternal</h4>
-            <p>Zomato</p>
+            <p>Flavora</p>
             <p>Blinkit</p>
             <p>District</p>
             <p>Hyperpure</p>
@@ -47,7 +47,7 @@ const Footer = () => {
         <hr />
         <div className="footer-bottom">
             By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners<br/>
-          © 2008-2025 © Zomato™ Ltd. All rights reserved.
+          © 2008-2025 © flavora™ Ltd. All rights reserved.
         </div>
       </div>
     </footer>

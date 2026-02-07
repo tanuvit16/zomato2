@@ -12,7 +12,7 @@ import "./Box.css";
                 <div className="subsection">
                     <div className="item1">
                         <img src="zomato.avif"/>
-                        <h3>zomato</h3>
+                        <h3>Flavora</h3>
                       
                         <p>Get the app now to start<br/> ordering your favorite <br/>dishes!</p>
 
